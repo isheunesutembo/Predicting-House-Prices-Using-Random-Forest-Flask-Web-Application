@@ -18,3 +18,6 @@
 <h2>Web App Screenshots<h2>
 <img src="Screenshot3.png">
 <img src="Screenshot4.png">
+  
+ <h2>Link for house price prediction using decision trees and random forest jupyter notebook below </h2>
+ <a href="https://github.com/isheunesutembo/DecisionTrees">Decision Tree and Random Forest Models Notebooks</a>
