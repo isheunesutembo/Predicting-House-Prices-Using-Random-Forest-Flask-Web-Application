@@ -3,9 +3,9 @@
 <h2>Dependencies for running the web app</h2>
 
 <li>
-<ul>Joblib</ul>
-<ul>ScikitLearn</ul>
-<ul>Flask</ul>
+<ol>Joblib</ol>
+<ol>ScikitLearn</ol>
+<ol>Flask</ol>
 </li>
 
 <h2>Project Folder Structure</h2>
