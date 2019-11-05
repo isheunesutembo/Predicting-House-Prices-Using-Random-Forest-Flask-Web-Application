@@ -1,0 +1,12 @@
+body {
+    background-color: grey;
+}
+
+.result {
+    align-content: center;
+    background-color: gray;
+}
+
+.navbar-brand {
+    color: #ffff;
+}
