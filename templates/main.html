@@ -34,7 +34,7 @@
 </style>
 
 <head>
-    <title>House Price Prediction</title>
+    <title>Bill rate Prediction</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -44,7 +44,7 @@
 
     <nav class="navbar navbar-light bg-dark">
         <span class="navbar-text">
-            <h1>House Price Predictor</h1>
+            <h1>Bill rate Predictor</h1>
         </span>
     </nav>
 
@@ -55,47 +55,119 @@
 
 
             <legend>Input Variables</legend>
-            <br>Rooms:<br>
+            <br>CL:<br>
 
-            <input name="rooms" type="number" class="form-control" required>
+            <input name="CL" type="number" class="form-control" required>
             <br>
 
-            <br> Bathroom:<br>
-            <input name="bathroom" type="number" class="form-control" required>
+            <br> Descriptive_JobTitle:<br>
+            <input name="Descriptive_JobTitle" type="number" class="form-control" required>
             <br>
 
-            <br>Landsize<br>
-            <input name="landsize" type="number" class="form-control" required>
+            <br>skills<br>
+            <input name="skills" type="number" class="form-control" required>
             <br>
 
-            <br>Lattitude<br>
-            <input name="lattitude" type="number" class="form-control" required>
+            <br>primary_skills<br>
+            <input name="primary_skills" type="number" class="form-control" required>
             <br>
 
-            <br>Longtitude<br>
-            <input name="longtitude" type="number" class="form-control" required>
+            <br>business_type<br>
+            <input name="business_type" type="number" class="form-control" required>
             <br>
 
-            <br>Distance<br>
-            <input name="distance" type="number" class="form-control" required>
+            <br>req_type<br>
+            <input name="req_type" type="number" class="form-control" required>
             <br>
 
-            <br>Car<br>
-            <input name="car" type="number" class="form-control" required>
+            <br>priority<br>
+            <input name="priority" type="number" class="form-control" required>
             <br> Landsize
 
-            <br>
-            <input name="landsize" type="number" class="form-control" required>
-            <br>
-
-            <br>BuildingArea<br>
-            <input name="buildingarea" type="number" class="form-control" required>
+            <br>Rec_Status<br>
+            <input name="Rec_Status" type="number" class="form-control" required>
             <br>
 
-            <br>YearBuilt<br>
-            <input name="yearbuilt" type="number" class="form-control" required>
-
+            <br>req_category<br>
+            <input name="req_category" type="number" class="form-control" required>
             <br>
+
+            <br>HSU<br>
+            <input name="HSU" type="number" class="form-control" required>
+            <br>
+            
+            <br>Assigned_HSU<br>
+            <input name="Assigned_HSU" type="number" class="form-control" required>
+            <br>
+            
+            <br>rec_city<br>
+            <input name="rec_city" type="number" class="form-control" required>
+            <br>
+            
+            <br>positions<br>
+            <input name="positions" type="number" class="form-control" required>
+            <br>
+            
+            <br>Unresponded_Pos_Opcl<br>
+            <input name="Unresponded_Pos_Opcl" type="number" class="form-control" required>
+            <br>
+            
+            <br>Unresponded_Pos_Hold<br>
+            <input name="Unresponded_Pos_Hold" type="number" class="form-control" required>
+            <br>
+            
+            <br>rejections<br>
+            <input name="rejections" type="number" class="form-control" required>
+            <br>
+            
+            <br>max_submission<br>
+            <input name="max_submission" type="number" class="form-control" required>
+            <br>
+            
+            <br>submissions<br>
+            <input name="submissions" type="number" class="form-control" required>
+            <br>
+            
+            <br>hits<br>
+            <input name="hits" type="number" class="form-control" required>
+            <br>
+            
+            <br>hires<br>
+            <input name="hires" type="number" class="form-control" required>
+            <br>
+            
+            <br>Sourced<br>
+            <input name="Sourced" type="number" class="form-control" required>
+            <br>
+            
+            <br>Rec_location<br>
+            <input name="Rec_location" type="number" class="form-control" required>
+            <br>
+            
+            <br>Metro_Area<br>
+            <input name="Metro_Area" type="number" class="form-control" required>
+            <br>
+            
+            <br>Total_starts<br>
+            <input name="Total_starts" type="number" class="form-control" required>
+            <br>
+            
+            <br>Total_hires<br>
+            <input name="Total_hires" type="number" class="form-control" required>
+            <br>
+            
+            <br>Total_perm_hires<br>
+            <input name="Total_perm_hires" type="number" class="form-control" required>
+            <br>
+            
+            <br>Total_perm_starts<br>
+            <input name="Total_perm_starts" type="number" class="form-control" required>
+            <br>
+            
+            <br>BD<br>
+            <input name="BD" type="number" class="form-control" required>
+            <br>
+            
             <br>
             <input type="submit" value="Submit" class="btn btn-primary">
 
@@ -113,7 +185,7 @@
         <b>{{ variable }}</b> : {{ value }} {% endfor %}
         <br>
         <br>
-        <h1>Predicted House Price:</h1>
+        <h1>Predicted Bill rate Price:</h1>
         <p style="font-size:50px">${{ result }}</p>
         {% endif %}
     </div>
